@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Cake-Onepage
+    </title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/home.css">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="container-fluid position-fixed pt-3 pb-3 d-none d-md-flex flex-row  justify-content-between "
+        style="background-color:#492F55; color: white;height: 70px;top:0%;left:0%;z-index: 999;">
+        <img src="./img/logo-small.png" style="width:180px;">
+        <div class="d-none d-md-flex">
+            <ul style="color:white;display: flex; line-height: 38px;">
+                <a href="#news" style="color:white ;">
+                    <li class="px-3">最新消息</li>
+                </a>
+                <a href="#product" style="color:white ;">
+                    <li class="px-3">特色產品</li>
+                </a>
+
+                <a href="#media" style="color:white ;">
+                    <li class="px-3">媒體報導</li>
+                </a>
+                <a href="#contact" style="color:white ;">
+                    <li class="px-3">聯絡我們</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+
+    <nav class="d-md-none navbar navbar-light light-blue lighten-4 fixed-top" style="background-color: rgba(97, 64, 113, 1); ">
+        <img src="./img/logo-small.png" style="width:180px;">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#"></a>
+
+        <!-- Collapse button -->
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+            aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"
+            style="width: 50px; height: 50px; border:none; background-color: transparent;z-index: 999;">
+
+            <img src="./img/burger.svg" alt="" style="width: 25px; height: 25px;">
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto text-center mt-3" style="font-size:18px; font-weight:600; ">
+
+                <li class="nav-item">
+                    <a class="nav-link my-2 " style="color: white;" href="#news">最新消息</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link my-2" style="color: white;" href="#product">特色產品</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link my-2" style="color: white;" href="#media">媒體報導</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link my-2" style="color: white;" href="#contact2">聯絡我們</a>
+                </li>
+            </ul>
+
+    </nav>
+
+
+    <!-- 形象圖 -->
+    <div class="taroBig position-relative" style="overflow:hidden; ">
+        <div style="width: 100%; height:100%; background-color: aliceblue; opacity: .5;"></div>
+        <img src="./img/寶才LOGO 1.svg"
+            style="transform: translate(-50%,-50%) ;width:200px ; position: absolute; top:50%; left:50%;">
+    </div>
+
+
+    <!-- 品牌理念 -->
+    <div class="container-fluid brand position-relative">
+        <div class="position-relative " style="width:81%; top:25%; left:10%; ">
+            <div class="d-flex align-items-center" style="background-color: #5B3B6A;">
+                <img src="./img/Starfish.svg" style="width:60px;height:60px;" class="d-none d-md-inline mr-2">
+                <h1 style="color: white;" class="d-none d-md-inline mr-1">品牌理念</h1>
+
+                <img src="./img/Starfish.svg" style="width:40px;height:40px;" class="d-md-none mr-2">
+                <h1 style="color: white;font-size: 30px;" class="d-md-none mr-1">品牌理念</h1>
+                <!-- <hr width="75%" style="background-color:white ;"> -->
+            </div>
+            <hr style="border-top:1px solid rgb(250, 250, 250,.5);">
+            <h2 style="color: white; line-height: 40px;" class="mt-5 w-75 d-none d-md-flex">三十多年一路走來，我們對品質的要求從不妥協。</h2>
+            <h2 style="color: white; line-height: 30px; font-size: 20px;" class="mt-4 w-100 d-md-none">
+                三十多年一路走來，<br>我們對品質的要求從不妥協。</h2>
+            <p style="color: white;font-size:18px;line-height: 32px;width: 45%;" class="mt-4 d-none d-md-flex">
+                從創立至今的熱情與堅持--
+                <br>堅持尋找最新鮮的食材，不含人工添加物及色素。
+                每日現做不售隔夜麵包，每一樣都秉持初衷。
+                以食材最原始卻豐美的樣貌呈現在每個人心靈深處。
+            </p>
+
+            <p style="color: white;font-size:14px;line-height: 25px;width: 80%;" class="mt-4 d-md-none">從創立至今的熱情與堅持--
+                <br>堅持尋找最新鮮的食材，不含人工添加物及色素。
+                每日現做不售隔夜麵包，每一樣都秉持初衷。
+                以食材最原始卻豐美的樣貌呈現在每個人心靈深處。
+            </p>
+        </div>
+        <img src="./img/withbg.png" style="position:absolute; bottom:0px;right:0px; height:40%"
+            class="d-none d-md-flex">
+        <p style="position:absolute; bottom:20px;right:80px; color:#5B3B6A ;font-size: 20px; font-weight:700;letter-spacing:3px"
+            class="d-none d-md-flex">| 1982年於豐原創立</p>
+
+        <img src="./img/withbg.png" style="position:absolute; bottom:0px;right:0px; height:30%" class="d-md-none">
+        <p style="position:absolute; bottom:10px;right:40px; color:#5B3B6A;font-size: 16px; font-weight:700;letter-spacing:3px"
+            class="d-md-none">| 1982年於豐原創立</p>
+        <p class="eng d-none d-md-flex" style="color:hwb(280 69% 18%) ;top:25%; right:10%;">About</p>
+
+
+    </div>
+
+    <!-- 最新消息 -->
+    <div id="news" class="container-fluid new pb-5">
+        <div class="container position-relative">
+            <div class="w-100 pt-3">
+                <div class="d-flex justify-content-between align-items-center position-relative pt-5 mb-2">
+                    <div class="d-flex align-items-center ">
+                        <img src="./img/New.svg" style="width:60px;height:60px;" class="d-none d-md-inline ml-2  mr-2">
+                        <h1 style="color: #80316D;" class="d-none d-md-inline">最新消息</h1>
+
+                        <img src="./img/New.svg" style="width:40px;height:40px;" class="d-md-none ml-2  mr-2">
+                        <h1 style="color: #80316D;font-size:30px ;" class="d-md-none">最新消息</h1>
+                    </div>
+
+                    <p class="mr-4 d-none d-md-flex" style="color:#80316D;font-family: Gwendolyn;
+                font-size: 55px;">News</p>
+                </div>
+                <hr class="mb-5">
+
+                <!-- <hr style="border-top:1px solid #845078;"> -->
+
+                <div class="row justify-content-center  mb-md-5 mt-md-3 " style="align-items: stretch; height:100%;">
+
+                    <div class="col-8 col-md-4 mb-5 mb-md-0">
+                        <div class="newCard p-0 pb-3 mx-auto" style="width: 90%;">
+                            <img src="./img/Mask group.svg" style="width:100%;">
+                            <p class="mt-3 d-none d-md-inline-block"
+                                style="font-size: 20px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                                2021鉅獻 | 四葉鮮果子蛋糕</p>
+                            <p class="mt-2 mb-3 d-none d-md-inline-block" style="font-size: 16px;color:#492C4E;">
+                                特級新鮮的100%北海道鮮奶製作</p>
+
+                            <p class="mt-3 d-md-none"
+                                style="font-size: 17px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                                2021鉅獻 | 四葉鮮果子蛋糕</p>
+                            <p class="mt-2 mb-3 d-md-none" style="font-size: 14px;color:#492C4E;">特級新鮮的100%北海道鮮奶製作</p>
+
+                        </div>
+                    </div>
+                    <div class="col-8 col-md-4 mb-5 mb-md-0">
+                        <div class="newCard p-0 pb-3 mx-auto" style="width: 90%;">
+                            <img src="./img/Group 12.svg" style="width:100%;">
+                            <p class="mt-3 d-none d-md-inline-block"
+                                style="font-size: 20px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                                冬季限定 | 牛軋糖</p>
+                            <p class="mt-2 mb-3 d-none d-md-inline-block" style="font-size: 16px;color:#492C4E;">
+                                脆而不硬、甜而不膩、入口即化</p>
+
+                            <p class="d-md-none mt-3"
+                                style="font-size: 17px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                                冬季限定 | 牛軋糖</p>
+                            <p class="d-md-none mt-2 mb-3" style="font-size: 14px;color:#492C4E;">脆而不硬、甜而不膩、入口即化</p>
+                        </div>
+                    </div>
+                    <div class="col-8 col-md-4 mb-5 mb-md-0">
+                        <div class="newCard p-0 pb-3 mx-auto" style="width: 90%;">
+                            <img src="./img/Group 13.svg" style="width:100%;">
+                            <p class="d-none d-md-inline-block mt-3"
+                                style="font-size: 20px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                                濃厚純香 | 北海道乳酪</p>
+                            <p class="d-none d-md-inline-block mt-2 mb-3" style="font-size: 16px;color:#492C4E;">
+                                進口材料、創造極致濃郁的美味</p>
+
+                            <p class="d-md-none mt-3"
+                                style="font-size: 17px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                                濃厚純香 | 北海道乳酪</p>
+                            <p class="d-md-none mt-2 mb-3" style="font-size: 14px;color:#492C4E;">進口材料、創造極致濃郁的美味</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- 特色產品 -->
+    <div id="product" class="container-fluid">
+        <div class="container position-relative">
+            <div class="w-100 pt-3">
+                <div class="d-flex justify-content-between align-items-center position-relative pt-5 mb-2">
+                    <div class="d-flex align-items-center ">
+                        <img src="./img/Trophy.svg" style="width:60px;height:60px;;"
+                            class="d-none d-md-inline ml-2  mr-2">
+                        <h1 style="color: #80316D;" class="d-none d-md-inline">特色產品</h1>
+                        <img src="./img/Trophy.svg" style="width:40px;height:40px;;" class="d-md-none ml-2  mr-2">
+                        <h1 style="color: #80316D;font-size:30px;" class="d-md-none">特色產品</h1>
+                    </div>
+
+                    <p class="mr-4 d-none d-md-flex" style="color:#80316D;font-family: Gwendolyn;
+                    font-size: 55px;">Products</p>
+                </div>
+                <hr class="mb-3">
+                <p class="mb-5 d-none d-md-inline"
+                    style="font-size: 16px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                    | 榮獲 全國蛋糕大賽-冠軍、建國百年大台中十大伴手禮、台灣百大伴手禮、「食在安心」優良衛生店家認證、特優級GSP企業等，多項金牌獎。</p>
+                <p class="mb-5 d-md-none" style="font-size: 14px;color:#492C4E; line-height: 20px; font-weight: 700;">
+                    | 榮獲 全國蛋糕大賽-冠軍、建國百年大台中十大伴手禮、台灣百大伴手禮、「食在安心」優良衛生店家認證、特優級GSP企業等，多項金牌獎。</p>
+                <div class="row justify-content-center  mb-md-5 mt-md-3 "
+                    style="align-items: stretch; height:100%;flex-wrap: wrap;">
+
+                    <div class="col-5 col-md-3 mb-5 mb-md-0 text-center">
+                        <div class="p-0 mx-auto " style="width: 100%;">
+                            <img class="productImg" src="./img/Rectangle 28.svg"
+                                style="width:100%;box-shadow: transparent;">
+                        </div>
+                        <p class="mt-3 mb-md-5"
+                            style="font-size: 20px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                            純芋頭蛋糕</p>
+                    </div>
+                    <div class="col-5 col-md-3 mb-5 mb-md-0 text-center">
+                        <div class="p-0 mx-auto productImg" style="width: 100%;">
+                            <img class="productImg" src="./img/Rectangle 29.svg"
+                                style="width:100%;box-shadow: transparent;">
+                        </div>
+                        <p class="mt-3 mb-md-5 "
+                            style="font-size: 20px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                            芋泥捲</p>
+                    </div>
+                    <div class="col-5 col-md-3 mb-5 mb-md-0 text-center">
+                        <div class="p-0 mx-auto productImg" style="width: 100%;">
+                            <img class="productImg" src="./img/Rectangle 30.svg"
+                                style="width:100%;box-shadow: transparent;">
+                        </div>
+                        <p class="mt-3 mb-md-5"
+                            style="font-size: 20px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                            太陽餅</p>
+                    </div>
+                    <div class="col-5 col-md-3 mb-5 mb-md-0 text-center">
+                        <div class="p-0 mx-auto productImg" style="width: 100%;">
+                            <img class="productImg" src="./img/Rectangle 31.svg"
+                                style="width:100%;box-shadow: transparent;">
+                        </div>
+                        <p class="mt-3 mb-md-5"
+                            style="font-size: 20px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                            鹹蛋糕</p>
+                    </div>
+                    <div class="col-5 col-md-3 mb-5 mb-md-0 text-center">
+                        <div class="p-0 mx-auto productImg" style="width: 100%;">
+                            <img class="productImg" src="./img/Rectangle 32.svg"
+                                style="width:100%;box-shadow: transparent;">
+                        </div>
+                        <p class="mt-3 mb-md-5"
+                            style="font-size: 20px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                            胡蘿蔔蛋糕</p>
+                    </div>
+                    <div class="col-5 col-md-3 mb-5 mb-md-0 text-center">
+                        <div class="p-0 mx-auto productImg" style="width: 100%;">
+                            <img class="productImg" src="./img/Rectangle 33.svg"
+                                style="width:100%;box-shadow: transparent;">
+                        </div>
+                        <p class="mt-3 mb-md-5"
+                            style="font-size: 20px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                            豆漿蛋糕</p>
+                    </div>
+                    <div class="col-5 col-md-3 mb-5 mb-md-0 text-center">
+                        <div class="p-0 mx-auto productImg" style="width: 100%;">
+                            <img class="productImg" src="./img/Rectangle 34.svg"
+                                style="width:100%;box-shadow: transparent;">
+                        </div>
+                        <p class="mt-3 mb-md-5"
+                            style="font-size: 20px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                            南瓜蛋糕</p>
+                    </div>
+                    <div class="col-5 col-md-3 mb-5 mb-md-0 text-center">
+                        <div class="p-0 mx-auto productImg" style="width: 100%;">
+                            <img class="productImg" src="./img/Rectangle 35.svg"
+                                style="width:100%;box-shadow: transparent;">
+                        </div>
+                        <p class="mt-3 mb-md-5"
+                            style="font-size: 20px;color:#492C4E; line-height: 30px; font-weight: 700;">
+                            芝麻蛋糕</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- 媒體報導 -->
+    <div id="media" class=" container-fluid position-relative"
+        style="background-color:#FFFCF1 ; padding-bottom: 100px;">
+        <div class="mediabg" style="background-color:#FFFCF1 ;">
+            <div class="container">
+                <div class=" d-flex justify-content-between align-items-center position-relative pt-5 mb-2">
+                    <div class="d-flex align-items-center ">
+                        <img src="./img/Circled Play.svg" style="width:60px;height:60px;;"
+                            class="d-none d-md-inline ml-2  mr-2">
+                        <h1 style="color: #80316D;" class="d-none d-md-inline">媒體報導</h1>
+                        <img src="./img/Circled Play.svg" style="width:40px;height:40px;" class="d-md-none ml-2  mr-2">
+                        <h1 style="color: #80316D;font-size:30px;" class="d-md-none">媒體報導</h1>
+                    </div>
+
+                    <p class="mr-4 d-none d-md-flex" style="color:#80316D;font-family: Gwendolyn;
+                    font-size: 55px;">Media</p>
+                </div>
+                <hr class="mb-4">
+            </div>
+            <div class="videobox">
+                <iframe src="https://www.youtube.com/embed/BAEF4qPXnig?controls=0&amp;start=295"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- <div class="mediabg" style="background-color:#5B3B6A ;"></div> -->
+
+
+        <!-- <iframe class="position-absolute" style="top:60%; left:50%; transform: translate(-50%,-50%); "  width="60%" height="65%"  src="https://www.youtube.com/embed/BAEF4qPXnig?controls=0&amp;start=295" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+    </div>
+
+    <!-- 營業資訊 -->
+
+    <div class="container-fluid welcome position-relative p-5">
+        <div class="position-relative " style="width:81%; top:15%; left:10%; ">
+            <div class="d-flex align-items-center" style="background-color: #5B3B6A;">
+                <img src="./img/List of Thumbnails.svg" style="width:60px;height:60px;" class="d-none d-md-inline mr-2">
+                <h1 style="color: white;" class="d-none d-md-inline mr-1">營業資訊</h1>
+
+                <img src="./img/List of Thumbnails.svg" style="width:40px;height:40px;" class="d-md-none mr-2">
+                <h1 style="color: white;font-size: 30px;" class="d-md-none mr-1">營業資訊</h1>
+                <!-- <hr width="75%" style="background-color:white ;"> -->
+            </div>
+            <hr class="mb-5" style="border-top:1px solid rgb(250, 250, 250,.5);">
+
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-md-0">
+                    <div class="rwd-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14550.859032497152!2d120.7169202!3d24.2517533!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x18d096adf02ebceb!2z5a-25omN6aOf5ZOB6KGMKOiKi-mgreibi-ezlSk!5e0!3m2!1szh-TW!2stw!4v1652623154288!5m2!1szh-TW!2stw"
+                            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-md-5  mt-lg-0 mb-5 mb-md-0">
+                    <div class="d-flex align-items-center justify-content-start">
+                        <img src="./img/Notes.png" class="d-none d-md-flex mr-2" width="35px">
+                        <p class="d-none d-md-flex" style="color:white ; font-weight:400; font-size:17px">
+                            全年僅休母親節隔日及中秋節隔兩日</p>
+
+                        <img src="./img/Notes.png" class="d-md-none mr-2" width="25px">
+                        <p class="d-md-none" style="color:white ; font-weight:400; font-size:16px">全年僅休母親節隔日及中秋節隔兩日</p>
+
+                    </div>
+                    <div>
+                        <hr style="background-color:rgb(113, 75, 137);">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-start">
+                        <img src="./img/Clock.png" class="d-none d-md-flex mr-2" width="35px">
+                        <p class="d-none d-md-flex" style="color:white ; font-weight:400; font-size:17px">8:00~22:30</p>
+                        <p class="d-none d-md-flex mx-3" style="color: rgb(113, 75, 137);">|</p>
+                        <img src="./img/WhatsApp.svg" class="d-none d-md-flex mr-2" width="35px">
+                        <p class="d-none d-md-flex" style="color:white ; font-weight:400; font-size:17px">04-2526-9288</p>
+
+                        <img src="./img/Clock.png" class="d-md-none mr-2" width="25px">
+                        <p class="d-md-none" style="color:white ; font-weight:400; font-size:16px">08:00~22:30</p>
+                            <p class="mx-3 d-md-none" style="color: rgb(113, 75, 137);">|</p>
+                            <img src="./img/WhatsApp.svg" class="d-md-none mr-2" width="35px">
+                            <p class="d-md-none" style="color:white ; font-weight:400; font-size:17px">04-2526-9288</p>
+
+                    </div>
+                    <div>
+                        <hr style="background-color:rgb(113, 75, 137);">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-start">
+                        <img src="./img/Location.png" class="d-none d-md-flex mr-2" width="35px">
+                        <p class="d-none d-md-flex" style="color:white ; font-weight:400; font-size:17px">
+                            420台中市豐原區中正路249號</p>
+
+                        <img src="./img/Location.png" class="mr-2 d-md-none" width="25px">
+                        <p class="d-md-none" style="color:white ; font-weight:400; font-size:16px">420台中市豐原區中正路249號</p>
+                    </div>
+
+                
+                <div>
+                    <hr style="background-color:rgb(113, 75, 137);">
+                </div>
+
+                <div>
+                    <p style="color: white;font-size:18px;font-size:17px; font-weight:400;"
+                        class="mt-4 d-none d-md-inline-block ">
+                        請於3-5天前訂購, 隔日急件請先洽客服專線!
+                    </p>
+
+                    <p style="color: white;font-size:14px;font-weight:400;" class=" d-md-none ">請於3-5天前訂購,
+                        隔日急件請先洽客服專線!
+                    </p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <p class="eng d-none d-md-flex d-lg-none" style="color:hwb(280 69% 18%) ;top:6%; right:13%;">Welcome</p>
+    <p class="eng d-none d-lg-flex" style="color:hwb(280 69% 18%) ;top:9%; right:13%;">Welcome</p>
+
+
+    </div>
+
+    <!-- 聯絡我們 大到小-->
+    <div id="contact" style="margin-bottom:100px ;" class="container-fluid position-relative d-none d-md-block">
+        <div class="container pt-1 pb-0 pb-md-4">
+
+            <div class="d-flex justify-content-between align-items-center position-relative pt-5">
+                <div class="d-flex align-items-center ">
+                    <img src="./img/SMS.svg" style="width:60px;height:60px;" class="ml-2  mr-2">
+                    <h1 style="color: #80316D;" class="d-none d-md-inline">聯絡我們</h1>
+                </div>
+
+                <p class="mr-4 d-none d-md-flex" style="color:#80316D;font-family: Gwendolyn;
+                    font-size: 55px;">Feedback</p>
+            </div>
+            <hr>
+        </div>
+        <div class="container feedback p-5 " style="width:600px ;">
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control form-control-lg" placeholder="姓名" aria-label="Name">
+                    </div>
+                    <div class="col-8">
+                        <input type="text" class="form-control form-control-lg" placeholder="信箱"
+                            aria-label="Email address">
+                    </div>
+                </div>
+
+                <div class="mt-4 mb-4">
+                    <input type="text" class="form-control form-control-lg" id="exampleInputEmail1"
+                        aria-describedby="emailHelp" placeholder="標題">
+                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                </div>
+
+                <div class="form-group">
+                    <!-- <label for="name">文本框</label> -->
+                    <textarea class="form-control content " rows="3" placeholder="內文"></textarea>
+                </div>
+                <div class="d-flex justify-content-between align-items-end">
+                    <p style="font-size:14px; line-height: 20px;" class="mr-3">感謝您對寶才的支持與愛護！<br>
+
+                        在接獲您的來函後，我們將盡快與您聯絡回覆，謝謝!</p>
+                    <button type="submit" class="btn yellowbtn pull-right">送出訊息</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div id="contact2" class="container-fluid position-relative mb-5  d-md-none">
+        <div class="container pt-1 pb-5">
+
+            <div class="d-flex justify-content-between align-items-center position-relative pt-5">
+                <div class="d-flex align-items-center ">
+                    <img src="./img/SMS.svg" style="width:40px;height:40px;" class="ml-2  mr-2">
+                    <h1 style="color: #80316D; font-size:30px;" class="d-md-none">聯絡我們</h1>
+                </div>
+
+                <p class="mr-4 d-none d-md-flex" style="color:#80316D;font-family: Gwendolyn;
+                    font-size: 55px;">Feedback</p>
+            </div>
+            <hr>
+        </div>
+        <div class="container feedback p-4 mx-auto" style="width: 90%;">
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control " placeholder="姓名" aria-label="Name">
+                    </div>
+                    <div class="col-8">
+                        <input type="text" class="form-control " placeholder="信箱" aria-label="Email address">
+                    </div>
+                </div>
+
+                <div class="mt-3 mb-3">
+                    <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="標題">
+                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                </div>
+
+                <div class="form-group">
+                    <!-- <label for="name">文本框</label> -->
+                    <textarea class="form-control content " rows="3" placeholder="內文"
+                        style="font-size:16px; padding-left: 10px;"></textarea>
+                </div>
+                <div class="d-flex justify-content-between align-items-end">
+                    <p style="font-size:10px; line-height: 20px;" class="mr-3">感謝您對寶才的支持與愛護！<br>
+
+                        在接獲您的來函後，我們將盡快與您聯絡回覆，謝謝!</p>
+                    <button type="submit" class="btn yellowbtn pull-right" style="font-size:14px ;">送出訊息</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="d-none container d-md-flex justify-content-center btImg"></div>
+    <div class="d-md-none container d-flex justify-content-center btImgs"></div>
+
+
+
+
+    <!-- 以下為footer 大到小-->
+    <footer class="container-fluid d-none d-md-flex p-md-2 d-flex justify-content-start align-items-center "
+        style="background-color:#492F55 ;color:white">
+        <a href="https://www.facebook.com/%E5%AF%B6%E6%89%8D%E9%A3%9F%E5%93%81%E7%9A%87%E6%9C%9D%E4%BA%AB%E6%99%8F-235099067646/"><img src="./img/Facebook.svg" class="fb  d-none d-md-flex" style="width:40px;"></a>
+        
+        <div class="d-flex flex-column mt-1 ml-3">
+
+            <p style="font-size:12px; line-height: 15px;" class="d-none d-md-flex">
+                42056 台中市豐原區中正路249號 / TEL:04-2526-9288</p>
+            <p style="font-size:12px;  line-height: 15px;" class="d-none d-md-flex">
+                食品業者登錄字號: B-153308605-00000-9 新光產品責任險: 132807AKP0000081</p>
+        </div>
+    </footer>
+
+    <footer class="container-fluid d-md-none d-flex justify-content-start align-items-start p-2"
+        style="background-color:#492F55 ;color:white">
+        <a href="https://www.facebook.com/%E5%AF%B6%E6%89%8D%E9%A3%9F%E5%93%81%E7%9A%87%E6%9C%9D%E4%BA%AB%E6%99%8F-235099067646/"><img src="./img/Facebook.svg" class="fb" style="width: 35px;"></a>
+        <div class=" d-flex flex-column mt-1 ml-3">
+
+            <p style="font-size:10px; line-height: 15px;" class="d-md-none">
+                42056 台中市豐原區中正路249號 / TEL:04-2526-9288</p>
+            <p style="font-size:10px; line-height: 15px;" class="d-md-none">
+                食品業者登錄字號: B-153308605-00000-9 新光產品責任險: 132807AKP0000081</p>
+        </div>
+    </footer>
+
+    <!-- 以下bootstrap引用 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
