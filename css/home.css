@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+/* 以上為reset */
+
+@font-face {
+	font-family:Gwendolyn-Regular;
+	src: local("Gwendolyn-Regular"),
+ }
+
+  @font-face {
+	font-family:Gwendolyn;
+	src: url(/Gwendolyn-Regular.ttf)format("truetype")
+  }
+
+.eng{
+font-family: Gwendolyn;
+font-size: 55px;
+position: absolute;
+}
+
+a:hover{
+	text-decoration: none;
+	/* border-bottom: 1px white solid; */
+	background-color:rgb(247, 247, 247,.3);
+}
+
+.fb:hover{
+	text-decoration: none;
+	background-color:transparent;
+}
+
+.taroBig{
+    width: 100%; height: 100vh;
+    background-image: url(../img/fresh-sliced-cubes-taro-root.jpg);
+    background-size: cover;
+    
+}
+
+.brand{
+	width: 100%; height: 100vh;
+	background-color: #5B3B6A;
+}
+
+.welcome{
+	width: 100%;
+	background-color: #5B3B6A;
+}
+
+.new{
+	width: 100%;
+	background-color: #FFFCF1;
+}
+
+.newCard{
+	width: 100%;
+	text-align: center;
+	box-shadow: 0px 2px 5px rgb(23, 23, 23,.5);
+	border-radius: 20px;
+}
+
+.feedback{
+	
+    height: auto;
+	text-align: left;
+	box-shadow: 0px 2px 5px rgb(23, 23, 23,.5);
+	border-radius: 20px;
+}
+
+input[type=text] {
+	background-color: #E6DFE8;
+	color: #888888;
+  }
+
+ .content {
+	width: 100%;
+	height: 150px;
+	padding-top: 5px;
+	padding-left: 15px;
+	background-color: #E6DFE8;
+	color: #888888;
+	font-size: 20px;
+	resize: none;
+  }
+
+.productImg{
+	box-shadow: 0px 2px 5px 0px rgba(150, 150, 150, 0.3);
+	border-radius: 20px;
+	/* border: 2px white solid; */
+
+}
+
+.mediabg{
+	height: auto;
+	width: 100%;
+	
+}
+
+.btImg{
+	width:75%; height:300px; 
+	overflow:hidden;
+	background-image: url(../img/slice-taro-table\ 1.svg);
+	background-size: cover;
+}
+
+.btImgs{
+	width:75%; height:150px; 
+	overflow:hidden;
+	background-image: url(../img/slice-taro-table\ 1.svg);
+	background-size: cover;
+}
+
+.videobox {
+    position: relative;
+    width: 71%;
+    height: 0;
+    padding-bottom: 56.25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.videobox iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.yellowbtn{
+	background-color: #FFD84E;
+	width: 105px;height: 45px;
+	color:#090808;
+	border: 3px white solid;
+	border-radius: 10px;
+	box-shadow: 0px 2px 3px 0px rgba(150, 150, 150, 0.3);
+}
+
+h1{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h2{
+	font-size: 28px;
+	font-weight: 700;
+
+}
+
+p{
+	font-weight: 300;
+}
+
+.nav-link:hover{
+ background-color: #a197a6;
+}
+
+
+.rwd-16by9 {
+	display: block; position: relative;
+	overflow: hidden; height: 0; padding: 0;
+	padding-bottom: 56.25%;
+	}
+	.rwd-16by9 iframe {
+	position: absolute;
+	height: 100%; width: 100%;
+	left: 0; top: 0;
+	}
+	.rwd-map {
+	display: block; position: relative;
+	overflow: hidden; height: 0; padding: 0;
+	padding-bottom: 75%;
+	}
+	.rwd-map iframe {
+	position: absolute;
+	height: 100%; width: 100%;
+	left: 0; top: 0;
+	}
+
+
+	.whiteBorder{
+		border: 3px white solid;
+	}
