@@ -233,3 +233,37 @@ p{
 	.whiteBorder{
 		border: 3px white solid;
 	}
+
+	#loader {
+		background-image: url(../img/寶才LOGO\ 1.svg);
+		width: 200px;
+		height: 200px;
+		animation: go 2s linear infinite;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	@keyframes go {
+		0% {
+			opacity: 0;
+		}
+
+		50% {
+			opacity: 1;
+		}
+
+		100% {
+			opacity: 0;
+		}
+	}
+
+
+
+	.center {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
