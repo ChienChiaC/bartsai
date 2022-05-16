@@ -20,7 +20,16 @@
 </head>
 
 <body>
+
+    <div id="loaderbg" style="height: 100vh; width:100%; background-color:#dfdcde;">
+        <div id="loader" class="center"></div>
+    </div>
+
+ 
+
+
     <!-- navbar -->
+
     <div class="container-fluid position-fixed pt-3 pb-3 d-none d-md-flex flex-row  justify-content-between "
         style="background-color:#492F55; color: white;height: 70px;top:0%;left:0%;z-index: 999;">
         <img src="./img/logo-small.png" style="width:180px;">
@@ -587,6 +596,28 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
         crossorigin="anonymous"></script>
+
+
+        <script>
+            document.onreadystatechange = function () {
+                if (document.readyState !== "complete") {
+                    document.querySelector(
+                        "body").style.visibility = "hidden";
+                    document.querySelector(
+                        "#loader").style.visibility = "visible";
+                    document.querySelector(
+                        "#loaderbg").style.visibility = "visible";
+                } else {
+                    document.querySelector(
+                        "#loader").style.display = "none";
+                    document.querySelector(
+                        "#loaderbg").style.display = "none";
+                    document.querySelector(
+                        "body").style.visibility = "visible";
+                }
+            };
+        </script>
+    
 
 </body>
 
