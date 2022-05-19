@@ -600,6 +600,7 @@
     </footer>
 
     <!-- 以下bootstrap引用 -->
+    
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -610,8 +611,9 @@
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
         crossorigin="anonymous"></script>
 
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
 
 
     <script>
@@ -623,7 +625,9 @@
                     "#loader").style.visibility = "visible";
                 document.querySelector(
                     "#loaderbg").style.visibility = "visible";
+                    
             } else {
+                
                 document.querySelector(
                     "#loader").style.display = "none";
                 document.querySelector(
@@ -633,31 +637,40 @@
             }
         };
 
-        
-    </script>
 
-    <script>
-        let submitaction = document.getElementById('submitbtn');
-        
-        submitaction.onclick = function () {
+        // let submitaction = document.getElementById('submitbtn');
+        // submitaction.onclick = function () {
+        //     Swal.fire(
+        //         '完成提交',
+        //         '感謝您撥冗提供寶貴的建議!',
+        //         'success'
+        //     )
+        // };
+
+        // let submitaction2 = document.getElementById('submitbtn2');
+        // submitaction2.onclick = function () {
            
+        //     Swal.fire(
+        //         '完成提交',
+        //         '感謝您撥冗提供寶貴的建議!',
+        //         'success'
+        //     )
+        // };
+
+        document.getElementById("submitbtn").addEventListener("click", function(){ 
             Swal.fire(
                 '完成提交',
                 '感謝您撥冗提供寶貴的建議!',
                 'success'
-            )
-        }
+            )}); 
 
-        let submitaction2 = document.getElementById('submitbtn2');
-        
-        submitaction2.onclick = function () {
-           
+        document.getElementById("submitbtn2").addEventListener("click", function(){ 
             Swal.fire(
                 '完成提交',
                 '感謝您撥冗提供寶貴的建議!',
                 'success'
-            )
-        }
+            )}); 
+        
     </script>
 
 
