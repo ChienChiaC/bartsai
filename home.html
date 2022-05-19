@@ -552,7 +552,7 @@
 
                         在接獲您的來函後，我們將盡快與您聯絡回覆，謝謝!</p>
                     <div id="app">
-                        <button id="submitbtn" type="button" class="btn yellowbtn pull-right"
+                        <button id="submitbtn2" type="button" class="btn yellowbtn pull-right"
                             style="font-size:12px ;font-weight: 700;">送出訊息</button>
                     </div>
 
@@ -634,6 +634,17 @@
         };
 
         let submitaction = document.getElementById('submitbtn');
+        
+        submitaction.onclick = function () {
+           
+            Swal.fire(
+                '完成提交',
+                '感謝您撥冗提供寶貴的建議!',
+                'success'
+            )
+        }
+
+        let submitaction2 = document.getElementById('submitbtn2');
         
         submitaction.onclick = function () {
            
