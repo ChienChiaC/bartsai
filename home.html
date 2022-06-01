@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/home.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
@@ -128,11 +128,11 @@
             </p>
         </div>
         <img src="./img/withbg.png" style="position:absolute; bottom:0px;right:0px; height:40%"
-            class="d-none d-md-flex">
+            class="d-none d-md-flex" data-aos="fade-left">
         <p style="position:absolute; bottom:20px;right:80px; color:#5B3B6A ;font-size: 20px; font-weight:700;letter-spacing:3px"
             class="d-none d-md-flex">| 1982年於豐原創立</p>
 
-        <img src="./img/withbg.png" style="position:absolute; bottom:0px;right:0px; height:30%" class="d-md-none">
+        <img src="./img/withbg.png" style="position:absolute; bottom:0px;right:0px; height:30%" class="d-md-none" data-aos="fade-left">
         <p style="position:absolute; bottom:10px;right:40px; color:#5B3B6A;font-size: 16px; font-weight:700;letter-spacing:3px"
             class="d-md-none">| 1982年於豐原創立</p>
         <p class="eng d-none d-md-flex" style="color:hwb(280 69% 18%) ;top:25%; right:10%;">About</p>
@@ -141,7 +141,7 @@
     </div>
 
     <!-- 最新消息 -->
-    <div id="news" class="container-fluid new pb-5">
+    <div id="news" class="container-fluid new pb-5" data-aos="fade-up" data-aos-duration="1000" >
         <div class="container position-relative">
             <div class="w-100 pt-3">
                 <div class="d-flex justify-content-between align-items-center position-relative pt-5 mb-2">
@@ -219,8 +219,8 @@
 
 
     <!-- 特色產品 -->
-    <div id="product" class="container-fluid">
-        <div class="container position-relative">
+    <div id="product" class="container-fluid" >
+        <div class="container position-relative"   data-aos="zoom-in">
             <div class="w-100 pt-3">
                 <div class="d-flex justify-content-between align-items-center position-relative pt-5 mb-2">
                     <div class="d-flex align-items-center ">
@@ -329,7 +329,7 @@
     <div id="media" class=" container-fluid position-relative"
         style="background-color:#FFFCF1 ; padding-bottom: 100px;">
         <div class="mediabg" style="background-color:#FFFCF1 ;">
-            <div class="container">
+            <div class="container" >
                 <div class=" d-flex justify-content-between align-items-center position-relative pt-5 mb-2">
                     <div class="d-flex align-items-center ">
                         <img src="./img/Circled Play.svg" style="width:60px;height:60px;;"
@@ -344,7 +344,8 @@
                 </div>
                 <hr class="mb-4">
             </div>
-            <div class="videobox">
+            <div class="videobox" data-aos="fade-up"
+            data-aos-duration="1500">
                 <iframe src="https://www.youtube.com/embed/BAEF4qPXnig?controls=0&amp;start=295"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -360,8 +361,9 @@
 
     <!-- 營業資訊 -->
 
-    <div class="container-fluid welcome position-relative p-5">
-        <div class="position-relative " style="width:81%; top:15%; left:10%; ">
+    <div class="container-fluid welcome position-relative p-5" data-aos="fade-up"
+    data-aos-duration="1500">
+        <div class="position-relative " style="width:81%; top:15%; left:10%; " >
             <div class="d-flex align-items-center" style="background-color: #5B3B6A;">
                 <img src="./img/List of Thumbnails.svg" style="width:60px;height:60px;" class="d-none d-md-inline mr-2">
                 <h1 style="color: white;" class="d-none d-md-inline mr-1">營業資訊</h1>
@@ -478,7 +480,7 @@
             </div>
             <hr>
         </div>
-        <div class="container feedback p-5 " style="width:600px ;">
+        <div class="container feedback p-5 " style="width:600px ;" data-aos="zoom-in" data-aos-duration="1500">
             <form>
                 <div class="row">
                     <div class="col-4 pr-2">
@@ -564,7 +566,7 @@
 
 
     <div class="d-none container d-md-flex justify-content-center btImg"></div>
-    <div class="d-md-none container d-flex justify-content-center btImgs"></div>
+    <div class="d-md-none container d-flex justify-content-center btImgs" ></div>
 
 
 
@@ -672,7 +674,10 @@
             )}); 
         
     </script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 
